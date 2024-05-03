@@ -1,0 +1,78 @@
+body{
+    background-color: #000019;
+    font-family: "Lilita One", cursive;
+    color: white;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 6, 6);
+    align-items: center;
+    height: 100px;
+    padding: 0px 40px;
+    text-decoration: none;
+    
+}
+.cabecalho-logo{
+    display: flex;
+    width: 9rem;
+}
+.cabecalho-lista{   
+    display: flex;
+    gap: 20px;
+}
+.cabecalho-lista-item{
+    background-color: #ff5c81;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: "Press Start 2P", cursive;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.curriculo {
+    background-color: #ff5c81;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: "Press Start 2P", cursive;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.principal{
+    background-image: url(https://i.pinimg.com/originals/26/67/e0/2667e0f188eafba8fc3a082d52137607.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.perfil{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 0px 0px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.perfil img {
+    max-width: 400px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.4);
+}
+.perfil-nome {
+    font-size: 60px;
+    color: white;
+}
+.perfil-profissao {
+    font-size: 30px;
+    color: #ff5c81;
+}
